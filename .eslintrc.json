@@ -1,0 +1,40 @@
+{
+    "root": true,
+    
+    "extends": [
+        "eslint:recommended",
+        "prettier"
+    ],
+    "parserOptions": {
+        "ecmaVersion": 2020,
+        "sourceType": "module"
+    },
+    "rules": {
+        "no-unused-vars": ["warning", { "vars": "all", "args": "after-used", "ignoreRestSiblings": false }]
+   ,
+        "semi": [
+            2,
+            "always"
+        ],
+        "indent": [
+            "error",
+            2
+        ],
+        "quotes": [
+            "error",
+            "single"
+        ],
+        "space-before-function-paren": [
+            0,
+            {
+                "anonymous": "always",
+                "named": "always"
+            }
+        ],
+        "no-return-assing": 0,
+        "camelcase": 0,
+        
+        "curly": "error",
+        "no-empty": "error"
+        }
+}
