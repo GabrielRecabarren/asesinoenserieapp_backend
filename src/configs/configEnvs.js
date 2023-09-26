@@ -12,6 +12,8 @@ class Config {
         this.SECRET_KEY_ONE = process.env.SECRET_KEY_ONE;
         this.SECRET_KEY_TWO = process.env.SECRET_KEY_TWO;
         this.SERVER_PORT = process.env.SERVER_PORT;
+        this.BASE_PATH = process.env.BASE_PATH;
+
       
         
     }
